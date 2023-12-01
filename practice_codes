@@ -1,0 +1,15 @@
+# Python code to find leap year
+def leapyear(num):
+    if (num%4 == 0) and ((num % 100!= 0) or (num % 400 == 0)):
+        print(num,"IS Leap YEar")
+    else:
+        print("Not an LEap year")
+num = int(input("Enter an number"))
+leapyear(num)
+#python code to find palondrom
+def palondram(value):
+    if value == value[::-1]:
+        print("palondram")
+    else:
+        print("Not a palondram")
+palondram("radar")
